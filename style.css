@@ -1,0 +1,154 @@
+/* CSS files add styling rules to your content */
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Nova+Script&family=Roboto&display=swap');
+</style>
+
+/* body {
+  background-color: #D9CAB3;
+} */
+
+h1 {
+  padding: 15px;
+  /* color: yellow; */
+  border-width: 2px;
+  flex: style;
+  font-size: 250%;
+  border-style: dashed;
+}
+
+ .title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 400%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: #D9CAB3;
+  border: 2px dashed white; */
+}
+
+.title:hover {
+  color:#C50711;
+}
+
+.nav-bar-options {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.media-title {
+  color: white;
+  padding: 1px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  margin-left: 12px;
+  font-size: 250%;
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.image {
+  /* height: 400px;
+  width: 800px; */
+  object-fit: cover;
+  margin: 20px;
+  border: 4px groove #C50711;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+ .option {
+  font-family: cursive;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  display: inline;
+  margin: 5px;
+  flex-wrap: nowrap;
+  font-size: 150%;
+  border: 2px solid black;
+  border-radius: 100px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 25px;
+  /* text-align: center; */
+  background-color: black;
+} 
+
+.option:hover {
+  background-color: #C50711;
+  border-color: #C50711;
+  color: black;
+}
+
+
+.hero-title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-top: 2px double #C50711;
+  padding-top: 15px;
+}
+
+.hero-text {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hero-content {
+  font-size: 150%;
+  background-color: white;
+  margin: 10px;
+  text-align: center;
+}
+
+.shop-now-btn {
+  background-color: #C50711;
+  border: 3px solid #C50711;
+  border-radius: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  /* margin: 5px; */
+  font-size: 130%;
+  color: white;
+  font-family: cursive;
+}
+
+.shop-now-btn:hover {
+  background-color: red;
+  border-color: red;
+}
+
+.below-the-fold {
+  background-color: black;
+  padding-bottom: 50px;
+  padding-top: 0px;
+  border: 1px solid black;
+  border-radius: 7px;
+  /* display: flex; */
+  /* justify-content: center; */
+} 
+
+img {
+  width: 1092.8px;
+  height: 400px;
+}
