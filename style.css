@@ -1,13 +1,10 @@
-/* CSS files add styling rules to your content */
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Nova+Script&family=Roboto&display=swap');
 </style>
 
-/* body {
-  background-color: #D9CAB3;
-} */
+
 
 h1 {
   padding: 15px;
@@ -32,8 +29,6 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* background-color: #D9CAB3;
-  border: 2px dashed white; */
 }
 
 .title:hover {
@@ -67,8 +62,6 @@ h1 {
 }
 
 .image {
-  /* height: 400px;
-  width: 800px; */
   object-fit: cover;
   margin: 20px;
   border: 4px groove #C50711;
@@ -91,7 +84,6 @@ h1 {
   padding-bottom: 0px;
   padding-left: 15px;
   padding-right: 25px;
-  /* text-align: center; */
   background-color: black;
 } 
 
@@ -144,8 +136,6 @@ h1 {
   padding-top: 0px;
   border: 1px solid black;
   border-radius: 7px;
-  /* display: flex; */
-  /* justify-content: center; */
 } 
 
 img {
